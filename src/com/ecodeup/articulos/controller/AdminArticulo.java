@@ -30,7 +30,7 @@ public class AdminArticulo extends HttpServlet {
  
 			articuloDAO = new ArticuloDAO(jdbcURL, jdbcUsername, jdbcPassword);
 		} catch (Exception e) {
-			// TODO: handle exception
+			System.out.println("error");
 		}
 	}
  
